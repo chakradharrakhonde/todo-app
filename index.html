@@ -1,42 +1,34 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Advanced To-Do List</title>
-
-  <!-- ✅ Google Fonts for modern text -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
-
-  <!-- ✅ Link to your CSS -->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
   <div class="container">
     <h1>To-Do List</h1>
     <div class="dark-mode-toggle">
-      <label>
-        <input type="checkbox" id="darkToggle" />
-        🌙 Dark Mode
-      </label>
+      <label><input type="checkbox" id="darkToggle"> 🌙 Dark Mode</label>
     </div>
-
     <div class="todo-input">
-      <input type="text" id="task-input" placeholder="Add a new task..." />
+      <input type="text" id="task-input" placeholder="Add a new task...">
       <button id="add-btn">Add</button>
     </div>
-
     <div class="filters">
       <button data-filter="all" class="filter-btn active">All</button>
       <button data-filter="active" class="filter-btn">Active</button>
       <button data-filter="completed" class="filter-btn">Completed</button>
     </div>
-
+    <div class="task-counter" id="taskCounter">Total: 0 | Completed: 0 | Remaining: 0</div>
     <ul id="task-list"></ul>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
