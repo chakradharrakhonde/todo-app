@@ -2,7 +2,8 @@
 
 A modern, responsive To-Do List web application built using HTML, CSS, and JavaScript. It supports adding, editing, deleting, and filtering tasks — with persistent storage using localStorage.
 
-🔗 **Live Demo:** [Click here to view](https://chakradharrakhonde.github.io/todo-app/)
+🔗 Live Demo: [https://chakradharrakhonde.github.io/todo-app/](https://chakradharrakhonde.github.io/todo-app/)
+
 
 ## 🚀 Features
 - Add new tasks
