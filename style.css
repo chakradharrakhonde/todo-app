@@ -109,6 +109,32 @@ ul#task-list li.completed span {
   text-decoration: line-through;
   opacity: 0.6;
 }
+body.dark-theme {
+  background: linear-gradient(120deg, #2c3e50, #4ca1af);
+  color: white;
+}
+
+body.dark-theme .container {
+  background: #2e2e2e;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-theme input,
+body.dark-theme button,
+body.dark-theme .filter-btn {
+  background-color: #444;
+  color: white;
+  border-color: #666;
+}
+
+body.dark-theme .filter-btn.active {
+  background-color: #1abc9c;
+}
+
+body.dark-theme ul#task-list li {
+  background: #3a3a3a;
+  color: white;
+}
 
 
 ul#task-list li.completed span {
