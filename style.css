@@ -105,6 +105,11 @@ ul#task-list li {
 ul#task-list li:hover {
   transform: scale(1.01);
 }
+ul#task-list li.completed span {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
 
 ul#task-list li.completed span {
   text-
