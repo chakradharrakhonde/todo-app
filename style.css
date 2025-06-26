@@ -117,9 +117,8 @@ body.dark-theme {
   color: white;
 }
 
-body.dark-theme .container {
-  background: #2e2e2e;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+body.dark-theme .container h1 {
+  color: white;
 }
 
 body.dark-theme input,
