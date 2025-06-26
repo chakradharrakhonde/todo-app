@@ -19,15 +19,20 @@ function renderTasks(filter = 'all') {
 
   filtered.forEach((task, index) => {
     const li = document.createElement('li');
-    li.className = task.completed ? 'completed' : '';
-    li.innerHTML = `
-      <span>${task.text}</span>
-      <div>
-        <button onclick="toggleComplete(${index})">✔</button>
-        <button onclick="editTask(${index})">✏️</button>
-        <button onclick="deleteTask(${index})">🗑️</button>
-      </div>
+    if (task.completed) li.classList.add('completed');
+
+    const taskText = document.createElement('span');
+    taskText.textContent = task.text;
+
+    const controls = document.createElement('div');
+    controls.innerHTML = `
+      <button onclick="toggleComplete(${index})">✔</button>
+      <button onclick="editTask(${index})">✏️</button>
+      <button onclick="deleteTask(${index})">🗑️</button>
     `;
+
+    li.appendChild(taskText);
+    li.appendChild(controls);
     taskList.appendChild(li);
   });
 }
