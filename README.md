@@ -37,6 +37,11 @@ Includes task filtering, dark mode, task counters, drag-and-drop reordering, and
 
 ---
 
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+
 ## 🚀 Setup & Run
 
 ```bash
