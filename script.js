@@ -72,6 +72,11 @@ function getCurrentFilter() {
   const activeBtn = document.querySelector('.filter-btn.active');
   return activeBtn ? activeBtn.dataset.filter : 'all';
 }
+const darkToggle = document.getElementById('darkToggle');
+
+darkToggle.addEventListener('change', () => {
+  document.body.classList.toggle('dark-theme');
+});
 
 addBtn.addEventListener('click', addTask);
 
