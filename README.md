@@ -1,22 +1,45 @@
-# 📝 Advanced To-Do List App
+# 📝 Advanced To-Do List Web App
 
-A modern, responsive To-Do List web application built using HTML, CSS, and JavaScript. It supports adding, editing, deleting, and filtering tasks — with persistent storage using localStorage.
+A feature-rich, fully responsive To-Do List app built with HTML, CSS, and JavaScript.  
+Includes task filtering, dark mode, task counters, drag-and-drop reordering, and smooth transitions.
 
-🔗 Live Demo: [https://chakradharrakhonde.github.io/todo-app/](https://chakradharrakhonde.github.io/todo-app/)
+🔗 **Live Demo:** [Click to View App](https://chakradharrakhonde.github.io/todo-app/)
 
+---
 
-## 🚀 Features
-- Add new tasks
-- Mark tasks as completed
-- Edit existing tasks
-- Delete tasks
-- Filter by: All / Active / Completed
-- Tasks saved in browser using `localStorage`
-- Responsive and mobile-friendly UI
+## ✨ Features
 
-## 🛠️ Built With
-- HTML
-- CSS
-- JavaScript (Vanilla)
+- ✅ Add, edit, and delete tasks
+- 🌗 Dark mode toggle (light/dark theme)
+- 🔢 Live task counter: total, completed, remaining
+- 🧲 Drag-and-drop task sorting (powered by SortableJS)
+- 📋 Filter tasks: All / Active / Completed
+- 💾 Saves your data in `localStorage`
+- 📱 Fully responsive design
 
-## 📁 Folder Structure
+---
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3 (custom + media queries)
+- JavaScript (ES6)
+- SortableJS (for drag-and-drop)
+- `localStorage` API
+
+---
+
+## 📸 Preview
+
+![App Screenshot](https://user-images.githubusercontent.com/YOUR_GITHUB_ID/todo-preview.png)
+
+> Replace this link with your own uploaded image if needed.
+
+---
+
+## 🚀 Setup & Run
+
+```bash
+git clone https://github.com/chakradharrakhonde/todo-app.git
+cd todo-app
+# Open index.html in any browser
