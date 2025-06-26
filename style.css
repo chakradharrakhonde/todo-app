@@ -135,6 +135,9 @@ body.dark-theme ul#task-list li {
   background: #3a3a3a;
   color: white;
 }
+body.dark-theme ul#task-list li span {
+  color: white;
+}
 
 
 ul#task-list li.completed span {
